@@ -16,4 +16,7 @@ describe('add',()=>{
     isNumber(add(1,"2"));
     isNumber(add("1",2));
   });
+  it('should do addition',()=>{
+    equal(add(4,4),8);
+  });
 });
